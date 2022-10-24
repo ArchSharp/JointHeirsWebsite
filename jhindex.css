@@ -1,0 +1,21 @@
+header>a>span{
+    color: goldenrod;
+}
+.jointheirsnav{
+  background: url(Images/bg-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.nav>nav-link{
+  color: white;
+}
+#about{
+  margin-top:50px;
+}
+#cbutton{
+   /*border: 1px solid goldenrod;*/
+   background-color: red;
+}

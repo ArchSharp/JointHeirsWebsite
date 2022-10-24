@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+.Navbar {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 40%;
+  justify-content: space-between;
+}
+
+.Navbar>Div {
+  width: 100px;
+  margin-left: 15px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  color: crimson;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.Navbar>div>a {
+  text-decoration: none;
+}
+
+.first-display {
+  background: url(Images/bg-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  box-shadow: 5px 5px 18px blue, 10px 10px 18px red, 15px 15px 18px green;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: brown;
+  /*width: 100%;*/
+}
+
+body {
+  margin: 0;
+}
+
+.Footer {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fa1 {
+  font-size: 100px;
+}
+
+#about, #teachings, #events, #help, #contact {
+  margin-top: 100px;
+}
+
+.titleheading {
+  margin-left: 48%;
+  margin-top: 50px;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  border-bottom: 3px solid red;
+}
+
+.about {
+  width: 40vw;
+  visibility: hidden;
+}
+
+.abouttext {
+  margin-top: 80px;
+  margin-left: 30px;
+  margin-right: 15px;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: justify;
+  width: 60vw;
+  visibility: hidden;
+}
+
+.abouttext>h3 {
+  color: goldenrod;
+}
+
+.aboutrow, .teachings {
+  display: flex;
+  margin-top: 50px;
+}
+
+.about>img {
+  width: 100%;
+  height: 550px;
+}
+
+.slideinleft {
+  float: left;
+  animation-duration: 3s;
+  animation-name: slideinleft;
+}
+
+@keyframes slideinleft {
+  from {
+    margin-left: -1000px;
+  }
+
+  to {
+    margin-left: 0px;
+  }
+}
+
+.slideinright {
+  float: right;
+  animation-duration: 2s;
+  animation-name: slideinright;
+}
+
+@keyframes slideinright {
+  from {
+    margin-right: -1000px;
+  }
+
+  to {
+    margin-right: 15px;
+  }
+}
+.mixlr, .facebook{
+  border: 2px solid goldenrod;
+  border-radius: 20px;
+  width: 35vw;
+  height: 35vw;
+  justify-content: space-between;
+  box-shadow: 10px 10px 18px lightgray;
+}
+.mixlr{
+  margin-left: 10vw;
+}
+.facebook{
+  margin-left: 50px;
+}
+.mixlr:hover, .facebook:hover{
+  box-shadow: 10px 10px 7px gray;
+  /*width: 37vw;
+  height: 37vw;*/
+}
