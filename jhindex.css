@@ -19,3 +19,6 @@ header>a>span{
    /*border: 1px solid goldenrod;*/
    background-color: red;
 }
+.carousel-inner.card-group>.card{
+  border-radius: 10px;
+}
