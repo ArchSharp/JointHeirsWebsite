@@ -3,12 +3,14 @@ header>a>span{
 }
 .home{
   background: url(Images/bg-img.jpg);
-  background-repeat: no-repeat;
+  background-repeat: no-repeat center;
   background-size: cover;
-  height: 85vh;
+  height: 90vh;
+  min-height: 400px;
   width: 100vw;
   padding-left: 0px;
   padding-right: 0px;
+  background-attachment: fixed;  
 }
 .nav>nav-link{
   color: white;
