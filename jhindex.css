@@ -6,6 +6,7 @@ header>a>span{
   background-repeat: no-repeat;
   background-size: cover;
   height: 85vh;
+  width: 100vw;
   padding-left: 0px;
   padding-right: 0px;
 }
