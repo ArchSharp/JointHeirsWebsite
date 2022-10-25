@@ -2,15 +2,20 @@ header>a>span{
     color: goldenrod;
 }
 .home{
-  background: url(Images/bg-img.jpg);
-  background-repeat: no-repeat center;
-  background-size: cover;
-  height: 90vh;
-  min-height: 400px;
-  width: 100vw;
+  background: url(Images/bg-img.jpg) no-repeat;/* no-repeat center fixed;*/
+  /*background-repeat: no-repeat center fixed;
+  background-size: cover;*/
+  background-size: contain;
+  /*height: 90vh;
+  min-height: 400px;*/
+  width: 100%;
+  height: 500px;
   padding-left: 0px;
   padding-right: 0px;
   background-attachment: fixed;  
+}
+.homebg{
+  width: 100vw;
 }
 .nav>nav-link{
   color: white;
