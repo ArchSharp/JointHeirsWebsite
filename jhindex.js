@@ -1,8 +1,11 @@
 window.onscroll = function() {myFunction()};
+window.onload = function(){myLoader()};
 
 var sticky_top = document.getElementById('fixedcolour');
+var loader = document.getElementById('loader');
+var main = document.getElementById('main');
 var sticky = sticky_top.offsetTop;
-
+var myvar;
 function myFunction() {
   if (window.pageYOffset >= sticky+10) {
     sticky_top.style.backgroundColor= "brown";
@@ -11,4 +14,13 @@ function myFunction() {
   } else if(window.pageYOffset < sticky+10){
     sticky_top.style.backgroundColor= "";
   }
+}
+
+function myLoader(){
+  myvar = setTimeout(showPage, 7000);
+}
+
+function showPage(){
+  loader.style.display = "none";
+  main.style.display = "block";
 }
