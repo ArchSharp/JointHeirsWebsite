@@ -4,8 +4,9 @@ window.onscroll = function() {myFunction()};
 var navbar = document.getElementById("navbar");
 var slideleft = document.getElementById('slideinleft');
 var slideright = document.getElementById('slideinright');
-var sticky = navbar.offsetTop;
 var about = document.getElementById('about').offsetTop;
+var sticky = navbar.offsetTop;
+
 
 function myFunction() {
   if (window.pageYOffset >= sticky+30) {

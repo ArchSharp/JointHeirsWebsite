@@ -5,6 +5,7 @@ const sticky_top = document.getElementById('fixedcolour');
 const loader = document.getElementById('loader');
 const main = document.getElementById('main');
 
+
 var sticky = sticky_top.offsetTop;
 var myvar;
 function myFunction() {
