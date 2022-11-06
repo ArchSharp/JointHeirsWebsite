@@ -10,7 +10,7 @@ var sticky = sticky_top.offsetTop;
 var myvar;
 function myFunction() {
   if (window.pageYOffset >= sticky+10) {
-    sticky_top.style.backgroundColor= "brown";
+    sticky_top.style.backgroundColor = "darkslateblue";
   } else if(window.pageYOffset < sticky+10){
     sticky_top.style.backgroundColor= "";
   }

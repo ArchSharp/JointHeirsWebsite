@@ -1,36 +1,33 @@
-.loader{
+.loader {
   background: url(Logo/jointheirs.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
 }
-#loader{
+#loader {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: whitesmoke;/*#042104;*/    
+  background: whitesmoke; /*#042104;*/
 }
-section .loader{
+section .loader {
   position: relative;
   width: 120px;
   height: 120px;
   animation: animateBg 10s linear infinite;
 }
 
-@keyframes animateBg
-{
-  0%
-  {
+@keyframes animateBg {
+  0% {
     filter: hue-rotate(0deg);
   }
-  100%
-  {
+  100% {
     filter: hue-rotate(360deg);
   }
 }
 
-section .loader span{
+section .loader span {
   position: absolute;
   top: 0;
   left: 0;
@@ -39,8 +36,8 @@ section .loader span{
   transform: rotate(calc(18deg * var(--i)));
   font-weight: bolder;
 }
-section .loader span::before{
-  content: '';
+section .loader span::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -48,33 +45,27 @@ section .loader span::before{
   height: 15px;
   border-radius: 50%;
   background: #00ff0a;
-  box-shadow: 0 0 10px #00ff0a,
-              0 0 20px #00ff0a,
-              0 0 40px #00ff0a,
-              0 0 60px #00ff0a,
-              0 0 80px #00ff0a,
-              0 0 100px #00ff0a;
+  box-shadow: 0 0 10px #00ff0a, 0 0 20px #00ff0a, 0 0 40px #00ff0a,
+    0 0 60px #00ff0a, 0 0 80px #00ff0a, 0 0 100px #00ff0a;
   animation: animate 2s linear infinite;
   animation-delay: calc(0.1s * var(--i));
 }
 
-@keyframes animate
-{
-  0%
-  {
+@keyframes animate {
+  0% {
     transform: scale(1);
   }
-  80%,100%
-  {
+  80%,
+  100% {
     transform: scale(0);
   }
 }
 
-header>a>span{
-    color: goldenrod;
+header > a > span {
+  color: goldenrod;
 }
-.home{
-  background: url(Images/bg-img.jpg);
+.home {
+  background: url(Images/bg-img.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -86,17 +77,23 @@ header>a>span{
   padding-right: 0px;
   background-attachment: fixed;
 }
-.nav>nav-link{
+.hometext {
+  width: 300px;
+  background-color: blue;
+  margin-left: 35%;
+  padding-top: 300px;
+}
+.nav > nav-link {
   color: white;
 }
-#about{
-  margin-top:50px;
+#about {
+  margin-top: 50px;
 }
-#cbutton{
-   /*border: 1px solid goldenrod;*/
-   background-color: red;
+#cbutton {
+  /*border: 1px solid goldenrod;*/
+  background-color: red;
 }
-.carousel-inner.card-group>.card{
+.carousel-inner.card-group > .card {
   border-radius: 10px;
 }
 .second-row {
@@ -109,7 +106,7 @@ header>a>span{
   width: 100%;
   height: 100%;*/
 }
-.video{
+.video {
   height: 500px;
 }
 
