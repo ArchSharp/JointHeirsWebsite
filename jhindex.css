@@ -132,7 +132,7 @@ header > a > span {
 @media screen and (max-width: 769px) {
   .hometext {
     font-size: 15px;
-    top: 270px;
+    top: 500px;
     margin-left: 10%;
     /* background-color: #00ff0a; */
   }
