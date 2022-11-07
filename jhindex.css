@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 
+* {
+  margin: 0px;
+  padding: opx;
+  box-sizing: border-box;
+}
+
 .loader {
   background: url(Logo/jointheirs.png);
   background-repeat: no-repeat;
