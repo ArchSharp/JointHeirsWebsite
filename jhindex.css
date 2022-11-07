@@ -133,6 +133,7 @@ header > a > span {
   .hometext {
     font-size: 15px;
     top: 270px;
+    margin-left: 20%;
   }
   .home {
     background: url(Images/bg-img2.jpeg);
