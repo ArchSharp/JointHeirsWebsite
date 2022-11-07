@@ -74,7 +74,7 @@ header > a > span {
   background-color: #464646;
   max-width: 100%;
   width: 100vw;
-  height: 90vh;
+  height: 600px;
   padding-left: 0px;
   padding-right: 0px;
   /* background-attachment: fixed; */
@@ -83,7 +83,7 @@ header > a > span {
   position: absolute;
   /* bottom: 50px; */
   top: 80vh;
-  width: 100vh;
+  width: fit-content;
   margin-left: 35%;
   font-family: "Ubuntu", sans-serif;
   color: goldenrod;
@@ -135,9 +135,5 @@ header > a > span {
     top: 270px;
     margin-left: 10%;
     /* background-color: #00ff0a; */
-  }
-  .home {
-    background: url(Images/bg-img2.jpeg);
-    height: 300px;
   }
 }
