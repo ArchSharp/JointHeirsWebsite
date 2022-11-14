@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 * {
   margin: 0;
@@ -48,7 +48,7 @@ section .loader span {
   font-weight: bolder;
 }
 section .loader span::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -94,7 +94,7 @@ header > a > span {
   top: 80vh;
   width: fit-content;
   margin-left: 35%;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: goldenrod;
   font-size: 25px;
 }
